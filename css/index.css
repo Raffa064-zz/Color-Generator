@@ -6,7 +6,6 @@
 }
 
 body {
-    position: relative;
     width: 100vw;
     height: 100vh;
     transition: 0.2s;
@@ -14,7 +13,7 @@ body {
 
 .fill-parent {
     width: 100%;
-    widtheight: 100%;
+    height: 100%;
 }
 
 header {
@@ -47,7 +46,7 @@ header > span {
 }
 
 .float-action-button {
-    position: absolute;
+    position: fixed;
     right: 20px;
     bottom: 20px;
     padding: 10px;
