@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    transition: 0.2s;
+}
+
+.fill-parent {
+    width: 100%;
+    widtheight: 100%;
+}
+
+header {
+    height: 70px;
+    padding: 10px;
+    background: #ededed;
+    border-bottom: 1px solid #777;
+}
+
+.vertical-centered {
+    display: flex;
+    align-items: center;
+}
+
+header > span {
+    color: #777;
+    font-size: 2rem;
+}
+
+#color-code {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10px;
+    background: #00000050;
+    color: #fff;
+    text-shadow: 0px 0px 3px #000, 0px 0px 10px #000;
+    border-radius: 7px;
+}
+
+.float-action-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    background: #08f;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.float-action-button:active {
+    background: #0af;
+    padding: 12px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
